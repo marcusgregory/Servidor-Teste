@@ -1,0 +1,12 @@
+{
+  "apps" : [
+     {
+        "name"          : "Servidor",
+        "script"        : "npm",
+        "args"          : "run start",
+        "watch"         : false,
+        "instances"     : "1",
+        "exec_mode"     : "cluster"
+     }
+  ]
+}
