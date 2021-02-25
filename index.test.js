@@ -10,7 +10,7 @@ describe('Teste de Rotas', () => {
     it('teste da rota "/mensagem1"', async () => {
         const res = await request(app)
             .get('/mensagem1');
-        expect(res.body).toStrictEqual({ message: "Mensagem 0" });
+        expect(res.body).toStrictEqual({ message: "Mensagem 1" });
     });
     it('teste da rota "/mensagem2"', async () => {
         const res = await request(app)
