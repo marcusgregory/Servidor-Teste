@@ -4,6 +4,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.send({message:'Olá Mundo!'})
+  
 }) 
 app.get('/mensagem1', (req, res) => {
   res.send({message:'Mensagem 1'})
